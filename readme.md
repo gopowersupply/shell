@@ -4,7 +4,7 @@
 [![Go Report Card](https://goreportcard.com/badge/gopowersupply/shell)](http://goreportcard.com/report/gopowersupply/shell)
 [![Coverage Status](https://coveralls.io/repos/github/gopowersupply/shell/badge.svg?branch=master)](https://coveralls.io/github/gopowersupply/shell?branch=master)
 [![GoDoc](https://godoc.org/github.com/gopowersupply/shell?status.svg)](https://godoc.org/github.com/gopowersupply/shell)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/gopowersupply/shell)](https://github.com/gopowersupply/shell/releases)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/gopowersupply/shell)](https://github.com/gopowersupply/shell/releases)
 [![GitHub last commit](https://img.shields.io/github/last-commit/gopowersupply/shell)](https://github.com/gopowersupply/shell/commits/master)
 [![GitHub issues](https://img.shields.io/github/issues/gopowersupply/shell)](https://github.com/gopowersupply/shell/issues)
 
