@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/github/license/gopowersupply/shell)](https://github.com/gopowersupply/shell/blob/master/LICENSE)
+[![GitHub](https://img.shields.io/github/license/gopowersupply/shell)](https://github.com/gopowersupply/shell/blob/master/LICENSE)
 [![Go version](https://img.shields.io/github/go-mod/go-version/gopowersupply/shell)](https://blog.golang.org/go1.13)
 [![Go Report Card](https://goreportcard.com/badge/gopowersupply/shell)](http://goreportcard.com/report/gopowersupply/shell)
 [![Coverage Status](https://coveralls.io/repos/github/gopowersupply/shell/badge.svg?branch=master)](https://coveralls.io/github/gopowersupply/shell?branch=master)
