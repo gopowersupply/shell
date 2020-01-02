@@ -1,5 +1,10 @@
 language: go
+
 go:
   - 1.13
+
+services:
+  -
+
 script:
   - go test -v
