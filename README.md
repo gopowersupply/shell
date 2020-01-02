@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/gopowersupply/shell.svg?branch=master)](https://travis-ci.org/gopowersupply/shell)
 [![Go Report Card](https://goreportcard.com/badge/gopowersupply/shell)](http://goreportcard.com/report/gopowersupply/shell)
 [![Coverage Status](https://coveralls.io/repos/github/gopowersupply/shell/badge.svg?branch=master)](https://coveralls.io/github/gopowersupply/shell?branch=master)
+[![code-coverage](http://gocover.io/_badge/github.com/gopowersupply/shell)](https://gocover.io/github.com/gopowersupply/shell)
 [![GoDoc](https://godoc.org/github.com/gopowersupply/shell?status.svg)](https://godoc.org/github.com/gopowersupply/shell)
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/gopowersupply/shell)](https://github.com/gopowersupply/shell/releases)
 [![GitHub last commit](https://img.shields.io/github/last-commit/gopowersupply/shell)](https://github.com/gopowersupply/shell/commits/master)

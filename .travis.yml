@@ -3,9 +3,6 @@ language: go
 go:
   - 1.13
 
-services:
-  -
-
 before_script:
   - go get golang.org/x/tools/cmd/cover
   - go get github.com/mattn/goveralls
