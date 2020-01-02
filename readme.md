@@ -1,5 +1,6 @@
 [![GitHub](https://img.shields.io/github/license/gopowersupply/shell)](https://github.com/gopowersupply/shell/blob/master/LICENSE)
 [![Go version](https://img.shields.io/github/go-mod/go-version/gopowersupply/shell)](https://blog.golang.org/go1.13)
+[![Build Status](https://travis-ci.org/gopowersupply/shell.svg?branch=master)](https://travis-ci.org/gopowersupply/shell)
 [![Go Report Card](https://goreportcard.com/badge/gopowersupply/shell)](http://goreportcard.com/report/gopowersupply/shell)
 [![Coverage Status](https://coveralls.io/repos/github/gopowersupply/shell/badge.svg?branch=master)](https://coveralls.io/github/gopowersupply/shell?branch=master)
 [![GoDoc](https://godoc.org/github.com/gopowersupply/shell?status.svg)](https://godoc.org/github.com/gopowersupply/shell)
@@ -16,6 +17,8 @@ Get it from github:
 ```bash
 go get -u https://github.com/gopowersupply/shell
 ```
+
+Documentation can be [found here](https://godoc.org/github.com/gopowersupply/shell)
 
 # Examples
 
