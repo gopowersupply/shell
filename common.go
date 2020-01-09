@@ -27,3 +27,29 @@ func command(shell string, args ...string) (string, error) {
 
 	return strings.TrimSpace(bufOut.String()), nil
 }
+
+// ProcessCloser - closes a current terminal process
+type ProcessCloser func()
+
+// Opens out and error streams
+func open(bufIn *bytes.Buffer, shell string, args ...string) (
+	closer ProcessCloser, bufOut *bytes.Buffer, bufError *bytes.Buffer, err error) {
+	bufOut = &bytes.Buffer{}
+	bufError = &bytes.Buffer{}
+
+	c := exec.Command(shell, args...)
+
+	c.Stdin = bufIn
+	c.Stderr = bufError
+	c.Stdout = bufOut
+
+	closer = func() {
+		_ = c.Process.Release()
+	}
+
+	if err := c.Run(); err != nil {
+		return closer, bufOut, bufError, NewCommandError(err)
+	}
+
+	return closer, bufOut, bufError, nil
+}

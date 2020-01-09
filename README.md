@@ -54,6 +54,20 @@ Alternative to create a new command from custom shell:
     // res: hey there
 ```
 
+You can make a new command from other command:
+```go
+    sh := shell.NewDefault()
+    cmdEcho := sh.NewCommand("echo")
+    cmdInfoEcho := cmdEcho.NewCommand("[info]")
+    res, _ := cmdInfoEcho.Exec("test")
+    // res; [info] test
+```
+
+It will be useful for `pkexec`:
+```go
+
+```
+
 ## Errors handling
 
 This package has an own error type `CommandError`  
